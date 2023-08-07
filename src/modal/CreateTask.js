@@ -113,7 +113,7 @@ export default function CreateTask({ toggle, modal, saveTask }) {
                 <ModalBody>
                     <form>
 
-                        <input type="text" maxLength={10} placeholder='Task Title...' className='enterTitle' value={title} onChange={(e) => { setTitle(e?.target?.value) }} />
+                        <input type="text" placeholder='Task Title...' className='enterTitle' value={title} onChange={(e) => { setTitle(e?.target?.value) }} />
                         <div className="due">
                             <small>
                                 <b>Set Due Date :&nbsp;&nbsp;&nbsp;</b>
